@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Placeholder</title>
+    <link rel="stylesheet" type="text/css" href="../styles/main.css">
+</head>
+<body>
+    <h1> Gallery </h1>
+    <div class="imgs"><img src="<%= name %>" height="200px"></div>
+    <h6> source: <%= name %> </h6>
+
+    <div class="buttons2">
+        <form action="/nextimage" method="POST" class="buttons">
+            <button type="submit">next</button>
+          </form>
+        <form action="/" method="GET" class="buttons">
+            <button type="submit">home</button>
+          </form>
+    </div>
+</body>
+</html>
