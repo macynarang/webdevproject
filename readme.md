@@ -7,4 +7,4 @@ Then, I created a webpage that used http-style server commands to allow the user
 ## How to run
 In your desired local directory, run ```git clone https://github.com/macynarang/webdevproject```.
 Once you have the code locally, run ```npm install ``` within the directory to re-download the packages.
-Use the command  ```nodemon index.js``` to run the server. Visit the webpage at localhost:3000 in your web browser.
+Use the command  ```nodemon index.js``` to run the server. Visit the webpage at [localhost:3000] in your web browser.
