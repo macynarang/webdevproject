@@ -18,15 +18,8 @@ app.use(express.urlencoded({ extended: true }));
 //to get get css file to work
 app.use(express.static(__dirname));
 
-//make api request immediately
+
 app.get("/", async (req,res)=>{
-    //var birds=await axios.get("http://shibe.online/api/birds?count=10&urls=true&httpsUrls=true");
-    //var cats=await axios.get("http://shibe.online/api/cats?count=10&urls=true&httpsUrls=true");
-    //var shibes=await axios.get("http://shibe.online/api/shibes?count=10&urls=true&httpsUrls=true");
-    //var imgs2=JSON.parse(imgs);
-    //console.log(typeof(imgs));
-    //console.log(imgs.data[1]);
-    //res.render(__dirname+"/views/index.ejs", {bird:birds.data[1], name:cats.data[1]});
     res.render(__dirname+"/views/index.ejs");
 });
 var imgs1;
